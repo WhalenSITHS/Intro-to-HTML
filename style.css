@@ -1,0 +1,55 @@
+/* https://www.materialpalette.com */
+body {
+  /* background-color: #1976d2; */
+  /* background-image: url(img/snow.jpg); */
+  /*https://uigradients.com/#Curiosityblue */
+  background-image: linear-gradient(
+      to right,
+      rgba(82, 82, 82, 0.5),
+      rgba(61, 114, 180, 0.9)
+    ),
+    url(img/snow.jpg);
+  background-size: cover;
+
+  font-size: 15px;
+  font-family: "Ranchers", cursive;
+  text-align: center;
+  margin: 3rem auto;
+}
+h1 {
+  color: #bbdefb;
+  font-size: 60px;
+  /* increase margin top and bottom and show how the box expands without increasing the size of text*/
+  margin: 0 auto;
+}
+.list-header {
+  color: #bbdefb;
+  font-size: 40px;
+}
+#header {
+  font-size: 50px;
+}
+
+img {
+  height: 150px;
+}
+
+li {
+  text-decoration: none; /*this didn't work? look up on MDN! */
+  list-style: none;
+  margin: 10px auto;
+  padding: 5px;
+}
+.lists {
+  background-color: rgba(82, 82, 82, 0.5);
+  width: 50vw;
+  margin: 0 auto;
+}
+.link {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+}
+ol li {
+  color: #ffffff;
+}

@@ -2,13 +2,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Need link to css-->
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Our First HTMl Doc</title>
   </head>
   <body>
-    <h1>Our First HTML Project</h1>
+    <h1 id="header">Our First HTML Project</h1>
     <h4>By Mr. Whalen</h4>
     <p>This is a paragraph tag, it is a block level element</p>
     <p>This <button>Button</button> is an example of an inline element</p>
+
+    <h1 class="list-header">My List</h1>
+    <div class="lists">
     <ul>
       Unordered List
     </ul>
@@ -21,8 +27,9 @@
       <li>item 1</li>
       <li>item 2</li>
     </ol>
+  </div>
     <!--MDN Reference-->
-    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"> MDN </a>
+    <a class="link" href="https://developer.mozilla.org/en-US/docs/Web/HTML"> MDN </a>
     <!-- <img
       src="https://images.unsplash.com/photo-1553787499-6f9133860278?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
       alt="Milkshake"
