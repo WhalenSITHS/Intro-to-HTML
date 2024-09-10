@@ -1,0 +1,41 @@
+html,
+body,
+* {
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+}
+li {
+  color: white;
+}
+.first {
+  color: purple;
+}
+#second {
+  color: blue;
+}
+h1 {
+  font-size: 32px;
+  text-align: center;
+}
+.post-img {
+  width: 100%;
+  height: 50%;
+  /*object fit fixes aspect ratio of image if needed  */
+  object-fit: cover;
+}
+.post {
+  text-align: center;
+  height: 250px;
+  width: 300px;
+  background-color: white;
+  margin: 10px auto;
+  padding: 0px;
+}
+.post-desc {
+  text-align: left;
+  margin: 5px 5px;
+}
