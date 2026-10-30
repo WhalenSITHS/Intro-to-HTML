@@ -19,21 +19,49 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  height: 100vh;
+  color: white;
   background-image:
     linear-gradient(rgba(39, 151, 241, 0.3), rgba(72, 171, 252, 0.3)),
     url("dog.webp");
   background-size: cover;
   background-position: center;
+<<<<<<< HEAD
   background-attachment: scroll;
   height: 100vh;
   color: #ffffff;
+=======
+  background-attachment: fixed;
+>>>>>>> 9c89dabbc68b93f9fbad615445f62b0a22ed2b1e
 }
 .hero-content {
-  width: 70rem;
+  width: 85rem;
   padding: 2rem;
 
 }
+<<<<<<< HEAD
 
+=======
+.hero h1 {
+  font-size: 7rem;
+  margin-bottom: 2rem;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+.hero p {
+  font-size: 2.4rem;
+  margin-bottom: 3rem;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+.btn {
+  display: inline-block;
+  padding: 1.4rem 3.2rem;
+  font-size: 2rem;
+  background-color: #ff4f9a;
+  text-decoration: none;
+  border-radius: 5rem;
+  color: white;
+}
+>>>>>>> 9c89dabbc68b93f9fbad615445f62b0a22ed2b1e
 .card {
   display: flex;
   flex-direction: column;
