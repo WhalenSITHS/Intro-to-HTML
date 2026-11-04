@@ -1,67 +1,37 @@
 
-html,
-
-body,
-{
-  font-size: 25px;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 2;
-}
 body {
-  background-color: white;
+  background-color: rgb(177, 185, 197);
   font-family: ui-sans-serif, system-ui, sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+html, body
+{
+  font-size: 20px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 2px;
 }
 .hero {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 100vh;
-  color: white;
   background-image:
-    linear-gradient(rgba(39, 151, 241, 0.3), rgba(72, 171, 252, 0.3)),
-    url("dog.webp");
+    linear-gradient(rgba(254, 255, 255, 0.3), rgba(191, 220, 247, 0.3)),
+    url("dog1.jpg");
   background-size: cover;
   background-position: center;
-<<<<<<< HEAD
-  background-attachment: scroll;
-  height: 100vh;
-  color: #ffffff;
-=======
   background-attachment: fixed;
->>>>>>> 9c89dabbc68b93f9fbad615445f62b0a22ed2b1e
+  height: 100vh;
+  color: #000000;
 }
 .hero-content {
-  width: 85rem;
-  padding: 2rem;
+  width: 90rem;
+  padding: 4rem;
 
 }
-<<<<<<< HEAD
 
-=======
-.hero h1 {
-  font-size: 7rem;
-  margin-bottom: 2rem;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
-}
-.hero p {
-  font-size: 2.4rem;
-  margin-bottom: 3rem;
-  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
-}
-.btn {
-  display: inline-block;
-  padding: 1.4rem 3.2rem;
-  font-size: 2rem;
-  background-color: #ff4f9a;
-  text-decoration: none;
-  border-radius: 5rem;
-  color: white;
-}
->>>>>>> 9c89dabbc68b93f9fbad615445f62b0a22ed2b1e
 .card {
   display: flex;
   flex-direction: column;
@@ -70,24 +40,10 @@ body {
   color: #ffffff;
   width: 30rem;
   height: 55rem;
-
-
-margin: 2.5rem 5rem;
+  margin: 2.5rem 5rem;
   border-radius: 0.8rem;
   align-items: center;
 }
-.card-title {
-  text-align: center;
-  font-size: 1.8rem;
-  font-weight: 400;
-}
-.card-img {
-  width: 100%;
-  height: 50%;
-  object-fit: cover;
-  border-radius: 0.8rem;
-}
-
 .card-btn {
   height: 4rem;
   padding: 0 1.6rem;
@@ -96,7 +52,20 @@ margin: 2.5rem 5rem;
   border: 1px solid #5250e0;
   border-radius: 0.4rem;
   font-size: 1.4rem;
-  font-weight: 600px;
+  font-weight: 600;
   cursor: pointer;
   transition: all 0.3s;
 }
+
+.hero h1 {
+  font-size: 7rem;
+  margin-bottom: 2rem;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+.hero p {
+  font-size: 2.4rem;
+  margin-bottom: 3rem;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.4)
+}
+
