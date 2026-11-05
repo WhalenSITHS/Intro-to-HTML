@@ -1,0 +1,71 @@
+
+body {
+  background-color: rgb(177, 185, 197);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+html, body
+{
+  font-size: 20px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 2px;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image:
+    linear-gradient(rgba(254, 255, 255, 0.3), rgba(191, 220, 247, 0.3)),
+    url("dog1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  color: #000000;
+}
+.hero-content {
+  width: 90rem;
+  padding: 4rem;
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #191e24;
+  color: #ffffff;
+  width: 30rem;
+  height: 55rem;
+  margin: 2.5rem 5rem;
+  border-radius: 0.8rem;
+  align-items: center;
+}
+.card-btn {
+  height: 4rem;
+  padding: 0 1.6rem;
+  background-color: #605dff;
+  color: #edf0ff;
+  border: 1px solid #5250e0;
+  border-radius: 0.4rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.hero h1 {
+  font-size: 7rem;
+  margin-bottom: 2rem;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+.hero p {
+  font-size: 2.4rem;
+  margin-bottom: 3rem;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.4)
+}
+
