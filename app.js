@@ -9,13 +9,3 @@ function inject(item) {
       </div> `,
   );
 }
-
-btn.addEventListener("click", function () {
-  x++;
-  rgb();
-});
-
-//make 1 html card, comment it out
-//select the container
-//forEach on items to inject to screen
-//select add cart buttons
