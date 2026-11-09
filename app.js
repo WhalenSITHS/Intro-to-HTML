@@ -9,3 +9,12 @@ function inject(item) {
       </div> `,
   );
 }
+//reminder to add class to button
+const buttons = document.querySelectorAll("button");
+buttons.forEach((button) =>
+  button.addEventListener("click", function (event) {
+    console.log(event.target.closest(".card").getAttribute("data-item"));
+    //go find item in array
+    //items[data-item]
+  }),
+);
