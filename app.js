@@ -18,3 +18,8 @@ buttons.forEach((button) =>
     //items[data-item]
   }),
 );
+
+function showCart() {
+  document.querySelector(".pop").style.display = "flex";
+}
+showCart();
