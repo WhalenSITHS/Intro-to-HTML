@@ -10,11 +10,18 @@ function inject(item) {
   );
 }
 //reminder to add class to button
-const buttons = document.querySelectorAll("button");
+/* const buttons = document.querySelectorAll("button");
 buttons.forEach((button) =>
   button.addEventListener("click", function (event) {
     console.log(event.target.closest(".card").getAttribute("data-item"));
     //go find item in array
     //items[data-item]
   }),
-);
+); */
+document.querySelector("form").addEventListener("submit", function (event) {
+  event.preventDefault();
+  console.log("submitted form");
+  let x = document.querySelector("#coupon");
+  console.log(x.value);
+  x.value = "";
+});
