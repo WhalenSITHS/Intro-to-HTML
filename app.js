@@ -18,9 +18,9 @@ buttons.forEach((button) =>
     //items[data-item]
   }),
 ); */
+
 document.querySelector("form").addEventListener("submit", function (event) {
   event.preventDefault();
-  console.log("submitted form");
   let x = document.querySelector("#coupon");
   console.log(x.value);
   x.value = "";
